@@ -1,0 +1,151 @@
+body{margin: 0;padding: 0;font-family: Arial;background-color: #ecf0f1;}
+a{text-decoration: none;}
+.header{
+	padding-bottom: 10px;
+	background-color: #ecf0f1;
+}
+.navigasi{
+	height: 65px;
+	width: 100%;
+	padding: 5px;
+	background-color: #1d6895;
+	position: fixed;
+	top:0;
+}
+.navigasi ul{
+	list-style: none;
+	padding: 0;
+}
+.navigasi li{
+
+}
+.navigasi li a{
+	color: #ecf0f1;
+	font-weight: bold;
+	line-height: 15px;
+	float: left;
+	margin-left: 50px;
+	padding: 10px 35px;
+	transition: all .3s ease;
+}
+.navigasi li a:hover{
+    background-color: #2e4051;
+    border-radius: 50px;
+    color: #fff;
+}
+footer{
+	height: 80px;
+	margin-top: 100px;
+	padding: 10px;
+	background-color: #212a33;
+	color: #fff;
+	line-height: 70px;
+	text-align: right;	
+}
+footer a{
+	color: #ecf0f1;
+}
+.mt{
+	margin-bottom: 70px;
+}
+.container{
+	padding: 20px;
+}
+.kotak{
+	width: 600px;
+	padding: 10px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.form-input{
+	border: none;
+	padding: 10px;
+	width: 100%;
+	margin: 10px 0 10px 0px;
+	border-radius: 7px;
+	box-shadow: 5px 2px 12px -8px #333;
+}
+.btn-succ{
+	padding: 10px;
+	width: 150px;
+	border:none;
+	background: #1abc9c;
+	color: #fff;
+	font-size: 15px;
+	border-radius: 4px;
+	box-shadow: 5px 2px 12px -8px #333;
+	transition: all .3s ease;
+	cursor: pointer;
+}
+.btn:hover{
+	opacity: .7;
+}
+.kotak i,a{
+	float: right;
+}
+.btn-prim{
+	padding: 10px;
+	width: 150px;
+	border:none;
+	background: #3498db;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 4px;
+	box-shadow: 5px 2px 12px -8px #333;
+	transition: all .3s ease;
+	cursor: pointer;
+}
+.btn-warn{
+	padding: 10px;
+	width: 150px;
+	border:none;
+	background: #eebf30;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 4px;
+	box-shadow: 5px 2px 12px -8px #333;
+	transition: all .3s ease;
+	cursor: pointer;
+}
+.btn-ungu{
+	padding: 10px;
+	width: 150px;
+	border:none;
+	background: #b74fff;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 4px;
+	box-shadow: 5px 2px 12px -8px #333;
+	transition: all .3s ease;
+	cursor: pointer;
+}
+.btn-dang{
+	padding: 10px;
+	width: 150px;
+	border:none;
+	background: #f04040;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 4px;
+	box-shadow: 5px 2px 12px -8px #333;
+	transition: all .3s ease;
+	cursor: pointer;
+}
+.btn-kecil {
+    width: auto;
+    font-size: 11px;
+    margin:0px 3px 0px 3px;
+}
+table th {
+    background: #1d6895;
+    padding: 6px;
+    color: #fff;
+}
+table td {
+    background: #1d689517;
+    padding: 6px;
+}
